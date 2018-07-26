@@ -15,7 +15,7 @@ git clone https://github.com/flavorplus/DeathByJava.git
 cd into the directory of the cloned GitHub project
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
-docker build -t <your-username>/deatbyjava:latest .
+docker build -t <your-username>/deathbyjava:latest .
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 
