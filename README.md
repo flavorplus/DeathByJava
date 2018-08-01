@@ -28,7 +28,8 @@ docker run -p 8080:8080 -d --name deathbyjava  <your-username>/deathbyjava:lates
 ### Access the sample application
 
 You can access the sample application on this URL:
-http://<host-ip>:8080/sample?n=XX
+http://<host-ip>:8080/?n=XXXX
+XXXX is the number of iterations you want to run x 100.
 
 ### Access the logs
 
@@ -44,5 +45,5 @@ You can run this command to enter the container and check the files under the we
 
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 docker exec -it deathbyjava bash
-ls -lrt /usr/local/tomcat/webapps
+ls -lrt /usr/src/java-code/
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
