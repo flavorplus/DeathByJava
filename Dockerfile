@@ -6,6 +6,7 @@ WORKDIR /usr/src/java-code/
 COPY ./src/DeathByJava/ /usr/src/java-code/
 RUN mvn package
 
+#
 #COPY ./instr /opt/Panorama/hedzup/mn/bin/..
 #RUN /opt/Panorama/hedzup/mn/bin/../bin/rpictrl.sh install \
 #  && /opt/Panorama/hedzup/mn/bin/../bin/rpictrl.sh enable
