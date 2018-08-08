@@ -3,6 +3,13 @@ DeatByJava - Containerized Java Load Generator
 
 Basic Java-based load generator. The container runs a fixed number of expensive operations based on the request parameter [n]. The expensive operations will peg a core for however long it takes to complete the operations, so that when contention occurs, the “however long” takes longer. The expensive operation is based on Math functions.
 
+### Run the automated build version
+
+The easiest way to run the project is to use to automated build version:
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+docker run -p 8080:8080 -d --name <some_thing>  flavorplus/deathbyjava:latest
+~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+
 ### Clone this project
 
 You can clone this project:
